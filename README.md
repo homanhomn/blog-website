@@ -1,3 +1,3 @@
 # blog-website
 blog-website
-https://blog-website-ochre-chi.vercel.app/
+https://aziz-ahmad-blog-website.vercel.app/
