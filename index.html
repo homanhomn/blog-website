@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>My Blog</h1>
+</header>
+
+<main class="container">
+  <h2>Add New Post</h2>
+  <input id="title" class="form-control" placeholder="Post title">
+  <textarea id="content" class="form-control" placeholder="Write something..."></textarea>
+  <select id="category" class="form-control">
+    <option value="">Select category</option>
+    <option value="Tech">Tech</option>
+    <option value="AI">AI</option>
+    <option value="Education">Education</option>
+    <option value="News">News</option>
+  </select>
+  <button onclick="addPost()">Publish</button>
+
+  <hr>
+
+  <div class="filter-box">
+    <label>Filter:</label>
+    <select id="filter" onchange="filterPosts()">
+      <option value="All">All</option>
+      <option value="Tech">Tech</option>
+      <option value="AI">AI</option>
+      <option value="Education">Education</option>
+      <option value="News">News</option>
+    </select>
+  </div>
+
+  <div id="posts"></div>
+</main>
+
+<footer>
+  <p>© 2025 My Blog</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

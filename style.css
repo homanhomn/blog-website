@@ -1,0 +1,68 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+}
+header {
+  background: #2b2d42;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+button:hover {
+  background: #0056b3;
+}
+.post {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  background: #fafafa;
+}
+.post h3 {
+  margin: 0;
+}
+.post .category {
+  font-size: 14px;
+  color: #777;
+}
+.post-actions {
+  margin-top: 8px;
+}
+.comment {
+  background: #f1f3f5;
+  margin: 5px 0;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+.filter-box {
+  margin: 10px 0;
+}
